@@ -131,7 +131,7 @@ Bounding boxes are drawn with class label and confidence score on each detected 
 
 Video Link: https://youtu.be/your-link-here
 
-The video (1-3 minutes) demonstrates:
+The video demonstrates:
 - (a) Launching the ROS package and running the detection pipeline
 - (b) The UI displaying detection results with bounding boxes on rosbag images
 - (c) A brief explanation of the detection results and observations
