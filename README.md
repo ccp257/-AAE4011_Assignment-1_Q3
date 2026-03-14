@@ -162,15 +162,15 @@ During the process, I felt the biggest advantage of AI was that it didn't get im
 Replacing yolov8n.pt with yolov8m.pt or yolov8l.pt would improve detection accuracy, particularly for small or partially occluded vehicles. The nano model trades accuracy for speed; medium and large variants have significantly more parameters, enabling better feature extraction for challenging cases such as distant vehicles or overlapping bounding boxes.
 
 **Strategy 2 - Fine-tune on aerial/drone imagery:**
-The COCO-pretrained model was trained on ground-level photographs. The rosbag camera captures a top-down aerial perspective, which differs substantially from training data. Fine-tuning YOLOv8 on a drone-specific dataset such as VisDrone would adapt the model to match this viewpoint, reducing false negatives for vehicles that appear small or foreshortened from above.
+Fine-tuning YOLOv8 on a drone-specific dataset such as VisDrone would adapt the model to match this viewpoint, reducing false negatives for vehicles that appear small or foreshortened from above.
 
 ### (d) Real-World Challenges
 
 **Challenge 1 - Onboard computational constraints:**
-Deploying this pipeline on an actual drone requires real-time inference on embedded hardware such as an NVIDIA Jetson module. Processing 1740x2200 resolution frames on CPU is far too slow for real-time use. Even with GPU acceleration, hardware-software compatibility issues (as encountered in this assignment with CUDA versions) are a significant practical challenge. Solutions include model quantisation (INT8), image downscaling before inference, and TensorRT-optimised model exports.
+A YOLO model may not reach real‑time frame rates without optimisation or hardware accelerators. Processing 1740x2200 resolution frames on CPU is far too slow for real-time use. Even with GPU acceleration, hardware-software compatibility issues.
 
 **Challenge 2 - Motion blur and dynamic lighting:**
-A drone in flight experiences constant vibration and rapid movement, introducing motion blur that degrades image quality and reduces detection confidence. Outdoor environments also have rapidly changing lighting conditions including shadows, direct sunlight glare, and varying illumination. Mitigation strategies include gimbal stabilisation, adaptive image preprocessing (CLAHE), and temporal tracking algorithms such as Kalman filter or DeepSORT to maintain vehicle identity across frames even when individual detections fail.
+A drone in flight experiences constant vibration and rapid movement, introducing motion blur that degrades image quality and reduces detection confidence. Outdoor environments also have rapidly changing lighting conditions including shadows, direct sunlight glare, and varying illumination. 
 
 ---
 
