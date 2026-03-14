@@ -129,7 +129,7 @@ Bounding boxes are drawn with class label and confidence score on each detected 
 
 ## 7. Video Demonstration
 
-Video Link: https://youtu.be/your-link-here
+Video Link: [https://youtu.be/your-link-here](https://www.youtube.com/watch?v=YOHBc9Yaw98)
 
 The video demonstrates:
 - (a) Launching the ROS package and running the detection pipeline
