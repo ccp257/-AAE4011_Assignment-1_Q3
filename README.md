@@ -141,10 +141,9 @@ The video demonstrates:
 ## 8. Reflection & Critical Analysis
 
 ### (a) What Did You Learn?
+First, I learned what rosbag is. When a robot is running, various sensors (cameras, LiDAR, GPS, etc.) and algorithms constantly publish data (images, laser scans, coordinates, etc.). A rosbag file captures all of this streaming data and saves it to disk. This deepened my understanding of how ROS handles different sensor data formats.
 
-Through this assignment, I gained two important technical skills. First, I learned what rosbag is. When a robot is running, various sensors (cameras, LiDAR, GPS, etc.) and algorithms constantly publish data (images, laser scans, coordinates, etc.). A rosbag file captures all of this streaming data and saves it to disk. The rosbag in this assignment used compressed images, which cannot be decoded with the standard CvBridge.imgmsg_to_cv2() method. Instead, I learned to use numpy.frombuffer() combined with cv2.imdecode() to correctly reconstruct the image from raw byte data. This deepened my understanding of how ROS handles different sensor data formats. 
-
-Second, I gained practical experience structuring and building a complete ROS catkin package from scratch, including writing a valid package.xml, CMakeLists.txt, and launch files. Deploying a deep learning model (YOLOv8) as part of a ROS node gave me insight into integrating modern AI frameworks within robotics middleware.
+Second, I gained practical experience in structuring and building a complete ROS catkin package from scratch, including writing a valid extract_images.py, ui_display.py, detect_vehicles.py, and launch files. Deploying a deep learning model (YOLOv8) as part of a ROS node gave me insight into integrating modern AI frameworks within robotics middleware.
 
 ### (b) How Did You Use AI Tools?
 
