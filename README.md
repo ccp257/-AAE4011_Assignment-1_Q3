@@ -127,7 +127,7 @@ Press Q to quit the display window.
 
 Bounding boxes are drawn with class label and confidence score on each detected vehicle. Results are saved as JPEG images in detection_results/.
 
-[Add sample screenshot here]
+
 
 ---
 
