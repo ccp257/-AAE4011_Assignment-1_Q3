@@ -6,7 +6,7 @@
 
 ## 1. Overview
 
-This project implements a complete ROS-based vehicle detection pipeline. It extracts image frames from a rosbag file recorded by an on-board drone camera, applies YOLOv8 object detection to identify vehicles, and visualises the results with bounding boxes and confidence scores through an OpenCV interface.
+This project implements a complete ROS-based vehicle detection pipeline. Applies YOLOv8 object detection to identify vehicles, and visualises the results with bounding boxes and confidence scores through an OpenCV interface.
 
 ---
 
