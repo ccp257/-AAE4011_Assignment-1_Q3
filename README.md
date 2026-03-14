@@ -178,6 +178,3 @@ A drone in flight experiences constant vibration and rapid movement, introducing
 
 - Ultralytics YOLOv8: https://github.com/ultralytics/ultralytics
 - ROS Noetic Documentation: https://wiki.ros.org/noetic
-- COCO Dataset: https://cocodataset.org
-- VisDrone Dataset: https://github.com/VisDrone/VisDrone-Dataset
-- OpenCV Documentation: https://docs.opencv.org
