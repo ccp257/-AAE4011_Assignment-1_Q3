@@ -27,18 +27,13 @@ Detection targets COCO classes: car (2), bus (5), truck (7).
 ## 3. Repository Structure
 
     vehicle_detection/
-    |-- bags/                          # Rosbag files (not tracked by git)
-    |   |-- 2026-02-02-17-57-27.bag
-    |-- extracted_frames/              # Raw frames from rosbag (not tracked)
-    |-- detection_results/             # Frames with bounding boxes (not tracked)
+    |-- bags/                          |-- 2026-02-02-17-57-27.bag
+    |-- extracted_frames/              # Raw frames from rosbag
+    |-- detection_results/             # Frames with bounding boxes
     |-- scripts/
     |   |-- extract_images.py          # Extract frames from rosbag
     |   |-- detect_vehicles.py         # Run YOLOv8 vehicle detection
     |   |-- ui_display.py              # Display detection results
-    |-- launch/
-    |   |-- detection.launch           # ROS launch file
-    |-- package.xml
-    |-- CMakeLists.txt
     |-- README.md
 
 ---
