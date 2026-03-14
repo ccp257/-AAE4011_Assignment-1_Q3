@@ -152,10 +152,7 @@ Second, I gained practical experience structuring and building a complete ROS ca
 
 ### (b) How Did You Use AI Tools?
 
-I used Perplexity AI as an assistant throughout this assignment to help generate code scaffolding, debug errors, and explain ROS concepts. Key benefits included rapid identification of the CompressedImage decoding issue and resolving a CUDA incompatibility error (RTX 5070 sm_120 not supported by the installed PyTorch) by switching to device=cpu. The AI also helped generate boilerplate code for the ROS package structure.
-
-The main limitation was that the AI could not directly inspect my environment or file system, requiring several rounds of iterative debugging. Error messages had to be manually copied and shared before the AI could diagnose the issue. This highlights that AI tools are effective collaborators but require the user to actively interpret and apply suggestions in context.
-
+I used Perplexity AI as an assistant throughout this assignment to help generate code scaffolding, debug errors, and explain ROS concepts.
 ### (c) How to Improve Accuracy?
 
 **Strategy 1 - Use a larger YOLOv8 model:**
