@@ -147,7 +147,15 @@ Second, I gained practical experience in structuring and building a complete ROS
 
 ### (b) How Did You Use AI Tools?
 
-I used Perplexity AI as an assistant throughout this assignment to help generate code scaffolding, debug errors, and explain ROS concepts.
+I used Perplexity AI as an assistant throughout this assignment.
+First, I used AI to help me set up a virtual machine environment (Ubuntu). The process was quite tedious.
+
+Then, I asked the AI ​​about ROSh and Ros-bag.
+
+Finally, I used AI to assist with coding.
+
+During the process, I felt the biggest advantage of AI was that it didn't get impatient no matter how complicated the steps were. The disadvantage is that you have to tell the AI ​​what error occurred; it can't automatically fix the problem, and you need to work with it step by step to solve it.
+
 ### (c) How to Improve Accuracy?
 
 **Strategy 1 - Use a larger YOLOv8 model:**
