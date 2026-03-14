@@ -35,7 +35,7 @@ Detection targets COCO classes: car (2), bus (5), truck (7).
     |   |-- extract_images.py          # Extract frames from Video 1
     |   |-- detect_vehicles.py         # Run YOLOv8 vehicle detection
     |   |-- ui_display.py              # Display detection results
-    |-- README.md
+    |-- README.md                      # Project documentation (this file)
 
 ---
 
