@@ -1,0 +1,7 @@
+<launch>
+  <node name="vehicle_detector"
+        pkg="vehicle_detection"
+        type="detect_vehicles.py"
+        output="screen"
+        launch-prefix="python3"/>
+</launch>
